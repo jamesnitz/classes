@@ -7,8 +7,7 @@ namespace classes
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string Title { get; set; }
-    public DateTime StartTime { get; set; } = DateTime.Now;
-
+    public DateTime StartTime { get; set; }
 
   }
 }

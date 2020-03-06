@@ -18,9 +18,10 @@ namespace classes
     {
       foreach (Employee employee in company.employees)
       {
-        Console.WriteLine($"{employee.FirstName} {employee.LastName} works for {company.CompanyName} as a {employee.Title} since {employee.StartTime}");
+        Console.WriteLine($"{employee.FirstName} {employee.LastName} works for {company.CompanyName} as a {employee.Title} since {employee.StartTime.ToString("MM/dd/yyyy")}");
       }
     }
+
 
     public Company(string name, DateTime datefounded)
     {
